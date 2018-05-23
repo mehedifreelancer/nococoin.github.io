@@ -1,0 +1,113 @@
+div.candidatos {
+    position: relative;
+    height: 40px;
+    margin: 40px 20px;
+    padding-left: 50px;
+}
+
+div.candidatos img {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    padding: 1px;
+}
+
+div.candidatos .parcial {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    vertical-align: middle;
+    padding: 0 0 0 10px;
+}
+
+div.candidatos .parcial .info {
+    height: 15px;
+    position: relative;
+}
+
+div.candidatos .parcial .info > div {
+    float: left;
+}
+
+
+
+div.candidatos .parcial .info .eleito,
+div.candidatos .parcial .info .segundo-turno {
+    color: #fff;
+    padding: 0 5px 2px 5px;
+    border-radius: 2px;
+}
+
+div.candidatos .parcial .info .percentagem-num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+}
+
+div.candidatos .parcial .progressBar {
+    position: relative;
+    width: 100%;
+    height: 14px;
+    margin: 5px 0 2px;
+    border-radius: 10px;
+    background: #e7e7e7;
+}
+
+div.candidatos .parcial .progressBar .percentagem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #A4B5C0;
+    -webkit-transition: 5s all;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: animationProgress;
+}
+
+
+div.candidatos.italia .parcial .percentagem {
+    background-color: #c10017;
+    -webkit-box-shadow: 0px 1px 12px 0px #c10017;
+    box-shadow: 0px 1px 12px 0px #c10017;
+}
+
+div.candidatos .parcial .partidas {
+    font-family: Arial, helvetica, Sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.percentual {
+    -webkit-transition: 5s all;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: animationProgress;
+    transition: 5s all;
+    animation-duration: 5s;
+    animation-name: animationProgress;
+}
+
+@-webkit-keyframes animationProgress {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes animationProgress {
+    from {
+        width: 0;
+    }
+}

@@ -1,0 +1,982 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #dddddd;
+}
+
+/* code for navbar elements*/
+
+.navbar-brand > img {
+    height: 50px;
+    width: 50px;
+    margin-top: -12px;
+}
+
+.lname {
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.lname:hover {
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#topNav {
+
+    background-image: url("../images/6284.jpg");
+    ;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+    height: 1020px;
+
+}
+
+
+.signIn {
+    margin-top: 10px;
+}
+
+.navbar-default {
+    border-color: #0f0f0f;
+    background: rgba(1, 1, 1, .9);
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-top: 5px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    border-bottom: 3px solid transparent;
+    ;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    background-color: transparent;
+    border-bottom: 3px solid #c10017;
+
+}
+
+.navbar {
+
+    margin-bottom: 0px;
+    border-radius: 0px;
+
+}
+
+.container-fluid > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container > .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.signIn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 16px;
+    -webkit-transition: 1s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.signIn i {
+    background: transparent;
+}
+
+.signIn i: hover {
+    background: transparent;
+}
+
+.signIn :hover {
+    background: #ffffff;
+}
+
+.bounty {
+    color: #c10017;
+}
+
+.overlay {
+    height: 1020px;
+    background: rgba(1, 1, 1, .5);
+}
+
+.overlayElementsLeft {
+    margin-top: 100px;
+}
+
+.overlayElementsLeft a {
+    color: white;
+    text-transform: uppercase;
+    margin: 20px 2px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    -webkit-transition: 1s;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+}
+
+.activeLanguage {
+    background: #5e5e5e;
+}
+
+.overlayElementsLeft a:hover {
+    background: #5e5e5e;
+}
+
+.overlayElementsLeftText {
+    margin-top: 63px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.commonText {
+    margin-top: 70px;
+}
+
+.commonTextOne,
+.commonTextTwo {
+    border-left: 2px solid #c10017;
+    padding: 0px 15px;
+}
+
+#visitAndChat {
+    margin-top: 68px;
+}
+
+#visitAndChat a {
+    background: transparent;
+    color: white;
+    padding: 15px 15px;
+    -webkit-transition: .7s;
+    transition: .7s;
+    text-transform: capitalize;
+    border: 2px solid white;
+}
+
+#visitAndChat a:hover {
+    background: white;
+    color: black;
+    padding: 15px 15px;
+}
+
+
+#visitAndChat div {
+    float: left;
+}
+
+
+
+/*Roght Side */
+
+.overlayElementsRight {
+    margin-top: 60px;
+    background: #3c3c3c;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 2px 5px 5px solid #ddd;
+    box-shadow: 5px 2px 5px 5px solid #ddd;
+}
+
+
+
+.token {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.end {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.collect h1 {
+    color: white;
+}
+
+.collect p {
+    color: #666;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.fa-check {
+    color: #ffc847;
+}
+
+.text {
+    color: #666;
+    font-weight: bold;
+}
+
+.exc {
+    color: white;
+    font-weight: bold;
+    margin-top: -3px;
+}
+
+.touch {
+    margin-top: 90px;
+}
+
+.fa-credit-card-alt {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #c10017;
+    background: transparent;
+    padding: 18px 14px;
+    border-radius: 50%;
+    border: 2px solid white;
+    -webkit-transition: 1s;
+    -webkit-transition: .8s;
+    transition: .8s;
+
+
+
+}
+
+.fa-eercast {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #c10017;
+    background: transparent;
+    padding: 21px 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    -webkit-transition: 1s;
+    -webkit-transition: .8s;
+    transition: .8s;
+}
+
+.touchElementOne {
+    margin: 10px;
+}
+
+.touchElementOne h3 {
+    color: white;
+}
+
+.touchElementOne:hover .fa-credit-card-alt {
+    padding: 21px 14px;
+    border-radius: 50%;
+    -webkit-transform: rotate(380deg);
+    transform: rotate(380deg);
+}
+
+.touchElementTwo {
+    margin: 10px;
+}
+
+.touchElementTwo h3 {
+    color: white;
+}
+
+
+.touchElementTwo:hover .fa-eercast {
+    -webkit-transform: rotate(380deg);
+    transform: rotate(380deg);
+}
+
+.touchElementOne button {
+    color: #c10017;
+    background: transparent;
+    border: none;
+    padding: 10px 15px;
+    -webkit-transition: .8s;
+    transition: .8s;
+    border-radius: 5px;
+}
+
+.touchElementOne button:hover {
+    color: black;
+    background: #c10017;
+
+}
+
+.touchElementTwo button {
+    color: #c10017;
+    background: transparent;
+    border: none;
+    padding: 10px 15px;
+    -webkit-transition: .8s;
+    transition: .8s;
+    border-radius: 5px;
+}
+
+.touchElementTwo button:hover {
+    color: black;
+    background: #c10017;
+
+}
+
+
+
+.modal-body p {
+    color: black;
+}
+
+.blue {
+    color: #5c142f;
+}
+
+#coFounder {
+    margin-bottom: 10px;
+}
+
+#coFounder h1 {
+    color: #5c142f;
+}
+
+#coFounder p {
+
+    font-size: 25px;
+    font-family: cursive;
+    color: gray;
+}
+
+#logoCarousel {
+    background: black;
+    margin-bottom: 5px;
+}
+
+#market {
+    background: red;
+    height: 800px;
+
+
+}
+
+.partOneleft {
+    background: #c10017;
+    padding: 80px;
+    height: 400px;
+}
+
+.partOneleft h1,
+h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.partOneleft h1 {
+    font-size: 80px
+}
+
+.partOneright {
+    background: #ff9c0a;
+    padding: 70px;
+    height: 400px;
+}
+
+.partOneright h1,
+h3 {
+    color: #5c142f;
+    font-weight: bold;
+}
+
+.partOneright h1 {
+    font-size: 70px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.partOneright a {
+    text-decoration: none;
+}
+
+.partOneright h1:hover {
+    font-size: 80px;
+}
+
+#partTwo {
+    background: transparent;
+
+}
+
+#partTwo .partTwoLeft {
+    background: #f8f8f8;
+    padding: 20px;
+
+
+}
+
+#partTwo .partTwoLeft h3 {
+    color: #5c142f;
+    font-weight: bold;
+
+}
+
+.partTwoLeft h1 {
+    margin-left: 10px;
+    color: #5c142f;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text {
+    margin-top: 5px;
+}
+
+#partTwo .partTwoRight {
+    background: white;
+    padding: 20px;
+
+
+}
+
+#partTwo .partTwoRight h3 {
+    color: #5c142f;
+    font-weight: bold;
+
+}
+
+.partTwoRight h1 {
+    margin-left: 10px;
+    color: #5c142f;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+.overLayTwo {}
+
+
+
+
+.fa-youtube-play {
+    color: red;
+    font-size: 53px;
+    margin-top: 46px;
+}
+
+.tt button:hover .fa-youtube-play {
+    color: black;
+}
+
+#videoCarouselText {
+    background: rgba(1, 1, 1, .8);
+    color: white;
+    padding: 40px;
+
+}
+
+#videoCarouselText h1 {
+    padding-top: 20px;
+}
+
+
+.videoCarouselTags {
+    background: #c10017;
+    padding: 20px 10px;
+    border-radius: 5px;
+    -webkit-transition: .7s;
+    transition: .7s;
+    margin: 5px;
+
+
+
+}
+
+.videoCarouselTags:hover {
+    background: #5c142f;
+
+}
+
+.videoCarouselTags i {
+    font-size: 50px;
+}
+
+#videoSlider {
+    display: none;
+}
+
+
+
+.platformBackground {
+    background: url("../images/side2.png");
+    height: 1200px;
+    background-size: cover;
+
+}
+
+.overlayTwo {
+
+    background: rgba(1, 1, 1, .5);
+    height: 1200px;
+}
+
+.platFormText {
+    padding: 30px;
+    margin-bottom: 120px;
+}
+
+.platFormText p {
+    color: white;
+    font-size: 20px;
+}
+
+.platFormText h1 {
+    color: white;
+}
+
+.platformLeft h2 {
+    margin: 0;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+
+}
+
+.platformRight {
+
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.platformRight h2 {
+    margin: 0;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.platformLeft li {
+    font-size: 22px;
+    list-style: none;
+    color: white;
+}
+
+.platformLeft i {
+    color: #5c142f;
+}
+
+.platformRight i {
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.platformRight li {
+    font-size: 18px;
+    list-style: none;
+    color: white;
+}
+
+#subtoken p {
+    color: white;
+}
+
+.serve {
+    margin-top: 20px;
+
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.insLeft h2 {
+    font-weight: bold;
+
+}
+
+.instructions {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.insLeft li {
+    list-style: none;
+    font-size: 18px;
+
+}
+
+.insRight img {
+    margin-top: 20px;
+    height: 400px;
+    width: 250px;
+    border: 15px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.security {
+    background: #c10017;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.security h1 {
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+
+.securityLeft {
+    padding-top: 50px;
+}
+
+.securityLeft li {
+    color: white;
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.securityLeft i {
+    color: #5c142f;
+}
+
+.securityRight img {
+    height: 300px;
+    margin-top: 30px;
+}
+
+#tab-content1 li {
+    font-size: 18px;
+    color: #5c142f;
+}
+
+
+#tab-content2 li {
+    font-size: 18px;
+    color: #5c142f;
+}
+
+#tab-content3 li {
+    font-size: 18px;
+    color: #5c142f;
+}
+
+#subtoken {
+    background: #182140;
+}
+
+.arrows i {
+    color: #5c142f;
+    font-size: 50px;
+}
+
+#icoTimeline {
+    padding: 50px;
+    margin: 30px 0px;
+}
+
+.lastSale {
+    padding: 50px;
+    margin-bottom: 80px;
+}
+
+
+
+.first h3,
+.second h3 {
+    color: #5c142f;
+    font-weight: bold;
+}
+
+
+.second {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.badge {
+    background: orange;
+    color: white;
+    font-size: 23px;
+}
+
+.sale {
+
+    margin-top: 30px;
+}
+
+.saleLeft {
+    border: 1px solid #666;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.saleLeft p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.saleRight {
+    border: 1px solid #666;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.saleRight p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.saleMid {
+    border: 1px solid #666;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.saleMid p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.number {
+    color: gray;
+    font-weight: bold;
+}
+
+.parcent {
+    color: orange;
+    font-weight: bold;
+}
+
+.saleHeading {
+    border-bottom: 1px solid #ddd;
+}
+
+.saleHeading h2 {
+    color: #5c142f;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.date {
+    color: #5c142f;
+    font-weight: bold;
+}
+
+#saleDetails {
+    padding-bottom: 20px;
+}
+
+.details {
+    color: black;
+    font-weight: bold;
+}
+
+.hr {
+    background: #c1c1c1;
+    height: 1px;
+}
+
+.saleHeading div div div {
+    padding-bottom: 50px;
+}
+
+#join {
+    background: #c10017;
+    padding: 80px 0px;
+    text-align: center;
+
+
+}
+
+.form-control {
+    padding: 25px 94px;
+}
+
+.joinUs {
+    margin-top: 50px;
+}
+
+.formElement {
+    width: 500px;
+    margin: auto;
+    margin-top: auto 50px;
+}
+
+.btn-info {
+
+
+    margin-top: 10px;
+}
+
+.socialIcon {
+    margin-top: 50px;
+}
+
+
+.socialIcon i {
+    margin: 0px 20px;
+    background: #ddd;
+    padding: 20px;
+    border-radius: 50%;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+.socialIcon i:hover {
+    background: #5c142f;
+    color: white;
+}
+
+#chartBar {}
+
+.barchart-BarFooter {
+
+    font-weight: bold;
+}
+
+#partners {
+    background: #c10017;
+    padding: 20px;
+
+}
+
+#partners img {
+    height: 50px;
+    width: 150px;
+}
+
+#partners h2 {
+
+    color: white;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.partnerLeft {
+    margin-bottom: 50px;
+}
+
+.partnerRight {
+    margin-bottom: 50px;
+}
+
+#advisor {
+    padding: 80px 0px;
+}
+
+#chartBar h2 {
+    color: #5c142f;
+}
+
+.memberElement img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+.memberElemntLeft {
+    margin: 50px;
+
+}
+
+.memberElementRight {
+    margin: 50px;
+
+}
+
+.memberElement h4 {
+    color: #5c142f;
+    font-weight: bold;
+}
+
+.memberElement h5 {
+    color: black;
+    font-weight: bold;
+}
+
+
+#FAQ {
+    padding: 30px 0px;
+}
+
+#footer {
+    background: #c10017;
+    padding: 20px 0px;
+    text-align: center;
+
+
+}
+
+#footer img {
+    height: 80px;
+    width: 80px;
+}
+
+.footerNav {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.footerNav li {
+    list-style: none;
+}
+
+.footerNav li a {
+    color: #dddddd;
+    -webkit-transition: .8s;
+    transition: .8s;
+    border-radius: 80px;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px;
+
+}
+
+.footerNav li a:hover {
+    background: #dddddd;
+    color: black;
+    padding: 5px;
+}
+
+#goTop {
+    background: transparent;
+    padding: 30px 0px;
+    bottom: 1px;
+    position: fixed;
+    right: 2px;
+
+
+}
+
+#goTop i {
+
+    color: white;
+    background: rgba(195, 0, 23, .4);
+    font-size: 30ox;
+    font-size: 25px;
+    margin-bottom: 8px;
+    padding: 20px;
+    border-radius: 50%;
+
+}

@@ -1,0 +1,106 @@
+	* {
+	    box-sizing: border-box;
+	}
+
+
+	.barchart-Wrapper {
+	    display: table;
+	    position: relative;
+	    margin: 20px 0;
+	    height: 320px;
+	    /* defines height for the box, everything else responds to this */
+	}
+
+	.barChart-Container {
+	    display: table-cell;
+	    width: 98%;
+	    height: 100%;
+	    padding-left: 15px;
+	}
+
+	.barchart {
+	    display: table;
+	    table-layout: fixed;
+	    height: 100%;
+	    width: 100%;
+	}
+
+	.barchart-Col {
+	    position: relative;
+	    vertical-align: bottom;
+	    display: table-cell;
+	    height: 100%;
+	}
+
+	.barchart-Col + .barchart-Col {
+	    border-left: 4px solid transparent;
+	}
+
+	.barchart-Bar {
+	    background: #5c142f;
+	    position: relative;
+	}
+
+	.barchart-Bar:after {
+	    content: attr(attr-height);
+	    color: white;
+	    position: absolute;
+	    text-align: center;
+	    width: 100%;
+	}
+
+	.barchart-BarFooter {
+	    position: absolute;
+	    text-align: center;
+	    height: 10%;
+	    width: 100%;
+	}
+
+	.barchart-TimeCol {
+	    position: absolute;
+	    top: 0;
+	    width: 2%;
+	    height: 100%;
+	    width: 100%;
+	    overflow-x: hidden;
+	}
+
+	.barchart-Time {
+	    height: 10%;
+	    vertical-align: middle;
+	    position: relative;
+	}
+
+	.barchart-Time:first-child .barchart-TimeText {
+	    top: -3px;
+	}
+
+	.barchart-Time:last-child .barchart-TimeText {
+	    top: -12px;
+	}
+
+	.barchart-Time:after {
+	    border-bottom: 1px dashed #ccc;
+	    content: "";
+	    position: absolute;
+	    width: 10000%;
+	    left: 0;
+	    top: 0em;
+	}
+
+	.barchart-Time:last-child:after {
+	    border-bottom: none;
+	}
+
+	.barchart-TimeText {
+	    position: absolute;
+	    top: -7px;
+	    z-index: 1;
+	    background: white;
+	    padding-right: 5px;
+	}
+
+	.lt-ie9 .barchart-TimeText {
+	    // Because no :last-child in IE-hate
+	    top: -3px !important;
+	}

@@ -1,0 +1,233 @@
+@media screen and (max-width: 990px) {
+
+    #topNav {
+
+
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 1650px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #topNav {
+
+
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 1800px;
+
+    }
+
+}
+
+@media screen and (max-width: 522px) {
+
+    #topNav {
+
+
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 1850px;
+
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+    #topNav {
+
+
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 2000px;
+
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    #topNav {
+
+
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 2020px;
+
+    }
+}
+
+@media screen and (max-width: 397px) {
+
+    #topNav {
+
+
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 2080px;
+
+    }
+}
+
+@media screen and (max-width: 343px) {
+
+    #topNav {
+
+
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 2200px;
+
+    }
+}
+
+@media screen and (max-width: 305px) {
+
+    #topNav {
+
+
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 2350px;
+
+    }
+}
+
+@media screen and (max-width: 297px) {
+
+    #topNav {
+
+
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 2450px;
+
+    }
+}
+
+@media screen and (max-width: 299px) {
+
+    #topNav {
+
+
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 2600px;
+
+    }
+}
+
+@media screen and (max-width: 287px) {
+
+    #topNav {
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 2600px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 284px) {
+
+    #topNav {
+        background-size: cover;
+        background-position: center center;
+        background: black;
+        margin-bottom: 50px;
+        height: 2800px;
+    }
+
+
+}
+
+@media screen and (max-width: 775px) {
+
+
+    .overlayTwo {
+
+        background: rgba(1, 1, 1, .5);
+        height: 1800px;
+    }
+
+}
+
+@media screen and (max-width: 775px) {
+    .platformRight {
+        margin-top: 90px;
+    }
+}
+
+
+@media screen and (max-width: 498px) {
+
+
+    .overlayTwo {
+
+        background: rgba(1, 1, 1, .5);
+        height: 2000px;
+    }
+
+}
+
+@media screen and (max-width: 399px) {
+
+
+    .overlayTwo {
+
+        background: rgba(1, 1, 1, .5);
+        height: 2200px;
+    }
+
+}
+
+@media screen and (max-width: 344px) {
+
+
+    .overlayTwo {
+
+        background: rgba(1, 1, 1, .5);
+        height: 2500px;
+    }
+
+}
+
+@media screen and (max-width: 307px) {
+
+
+    .overlayTwo {
+
+        background: rgba(1, 1, 1, .5);
+        height: 3000px;
+    }
+
+}
